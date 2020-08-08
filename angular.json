@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "geod-front"
+    }
+  },
+  "defaultProject": "geod-front",
+  "cli": {
+    "analytics": false
+  }
 }
