@@ -3,10 +3,9 @@ Error Page
 ******************/
 .error-box {
   height: 100%;
-  position: relative;
-  background: url(../../../assets/images/shape1.svg) no-repeat center center #fff;
+  position: fixed;
+  background: url(../../assets/images/shape1.svg) no-repeat center center #fff;
   width: 100%;
-  margin-top: 20px;
 }
 .error-box .footer {
   width: 100%;
