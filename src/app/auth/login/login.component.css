@@ -1,12 +1,31 @@
 /*******************
 Login register and recover password Page
 ******************/
+
+
+.logo-login{
+  display: flex;
+}
+.logo-login img {
+  margin: auto;
+  }
+
+
 .login-register {
-  background: radial-gradient(ellipse farthest-corner at 50% 50px, #292C37 18%, #0B091A 40%);
+ 
   height: 100%;
   width: 100%;
-  padding: 10% 0;
+  padding: 5% 0;
   position: fixed;
+  background: radial-gradient(ellipse farthest-corner at 50% 50px, #292C37 18%, #0B091A 40%);
+}
+
+.fondo-login{
+  background-image: url("../../../assets/images/logo-bg.png");
+  background-position: bottom right;
+  background-size: 400px;
+  background-repeat: no-repeat;
+    
 }
 
 .color {
@@ -18,8 +37,9 @@ Login register and recover password Page
   width: 400px;
   margin: 0 auto;
   border-radius: 20px;
-  background: #0B091A;
+  background: #181726;
   box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2);
+  padding: 40px 50px;
 }
 .login-box .footer {
   width: 100%;
@@ -46,6 +66,22 @@ Login register and recover password Page
 }
 ::placeholder{
   color: white;
+  padding-left: 20px;
 }
 
+.campo {
+  background-color: #363846;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  padding: 10px 5px;
+}
 
+.boton-google {
+  background-color: #363846!important;
+}
+
+.recuperar-pass {
+  color: #ffffff;
+  font-size: 15px;  
+}
