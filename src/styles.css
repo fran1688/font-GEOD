@@ -5,9 +5,62 @@
   animation-fill-mode:both
 }
 
+.login-register {
+  height: 100%;
+  width: 100%;
+  padding: 5% 0;
+  position: fixed;
+  background: radial-gradient(ellipse farthest-corner at 50% 50px, #292C37 18%, #0B091A 40%);
+}
+
+.logo-login{
+  display: flex;
+  margin-bottom: 50px;
+}
+.logo-login img {
+  margin: auto;
+  }
+
+.login-box {
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 40px!important;
+  background: #181726;
+  box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2)!important;
+  padding: 40px 50px;
+}
+
 .botones {
   text-transform: uppercase;
   font-weight: bold;
   
 
+}
+
+.campo {
+  background-color: #363846;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  color: #fff;
+  }
+
+::placeholder{
+  color: white;
+}
+
+.btn-p {
+  background: linear-gradient(90deg, #FF9F00, #FF5700);
+  border-radius: 15px;
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+.bg-iso {
+  height: 400px;
+  background-image: url("../../../geod/font-GEOD/src/assets/images/logo-bg.png");
+  background-position: bottom right;
+  background-size: 400px;
+  background-repeat: no-repeat;
 }
