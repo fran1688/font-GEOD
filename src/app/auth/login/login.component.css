@@ -2,21 +2,12 @@
 Login register and recover password Page
 ******************/
 
-
-.logo-login{
-  display: flex;
-  margin-bottom: 50px;
-}
-.logo-login img {
-  margin: auto;
-  }
-
-
 .login-box .footer {
   width: 100%;
   left: 0px;
   right: 0px;
 }
+
 .login-box .social {
   display: block;
   margin-bottom: 30px;
@@ -36,9 +27,6 @@ Login register and recover password Page
   height: 100%;
 }
 
-
-
-
 .boton-google {
   background-color: #363846!important;
 }
@@ -48,11 +36,4 @@ Login register and recover password Page
   font-size: 15px;  
 }
 
-.lomama {
-  height: 60vh;
-  margin-top: -34vh;
-  background-image: url("../../../assets/images/logo-bg.png");
-  background-position: bottom right;
-  background-size: 400px;
-  background-repeat: no-repeat;
-}
+
