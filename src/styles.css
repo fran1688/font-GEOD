@@ -33,7 +33,7 @@
 .botones {
   text-transform: uppercase;
   font-weight: bold;
-  
+
 
 }
 
@@ -57,10 +57,10 @@
   font-size: 20px;
 }
 
-.bg-iso {
+/*.bg-iso {
   height: 400px;
   background-image: url("../../../geod/font-GEOD/src/assets/images/logo-bg.png");
   background-position: bottom right;
   background-size: 400px;
   background-repeat: no-repeat;
-}
+}*/
