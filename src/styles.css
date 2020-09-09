@@ -13,7 +13,7 @@ a , .text-info {
 .login-register {
   height: 100%;
   width: 100%;
-  padding: 5% 0;
+  padding: 2% 0;
   position: fixed;
   background: radial-gradient(ellipse farthest-corner at 50% 50px, #292C37 18%, #0B091A 40%);
 }
@@ -30,7 +30,7 @@ a , .text-info {
   width: 400px;
   margin: 0 auto;
   border-radius: 40px!important;
-  background: #181726;
+  background: rgba(27,29,43,.4);
   box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2)!important;
   padding: 40px 50px;
 }
@@ -113,4 +113,18 @@ a , .text-info {
 .sidebar-nav ul li i {
   color: #FF9F00!important;
 }
+
+.icon-svg {
+  fill: #d89d41;
+  width: 35px;
+  margin: 10px;
+}
+.icon-svg:hover {
+  fill: red;
+}
+.icon-svg:active {
+  fill: blue;
+}
+
+
 
