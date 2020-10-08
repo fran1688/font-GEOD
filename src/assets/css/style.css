@@ -753,18 +753,16 @@ File: scss
 Main sidebar
 ******************/
 .left-sidebar {
-  position: absolute;
   width: 240px;
   height: 100%;
   top: 0px;
   z-index: 20;
-  padding-top: 70px;
   background: #fff;
   -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08); }
 
 .fix-sidebar .left-sidebar {
-  position: fixed; }
+ }
 
 /*******************
 use profile section
@@ -794,7 +792,7 @@ sidebar navigation
 
 .sidebar-nav {
   background: #fff;
-  padding: 15px 0 0 0px; }
+  padding: 0px 0 0 0px; }
   .sidebar-nav ul {
     margin: 0px;
     padding: 0px; }
@@ -802,7 +800,7 @@ sidebar navigation
       list-style: none; }
       .sidebar-nav ul li a {
         color: #687384;
-        padding: 8px 35px 8px 15px;
+        padding: 15px 35px 8px 15px;
         display: block;
         font-size: 14px;
         font-weight: 400; }
@@ -839,12 +837,10 @@ sidebar navigation
   .sidebar-nav > ul > li > a .label {
     float: right;
     margin-top: 6px; }
-  .sidebar-nav > ul > li > a.active {
+  .sidebar-nav > ul > li > a.active { 
     font-weight: 400;
-    background: #ffffff;
+    background: #292c37;
     color: #26c6da; }
-  .sidebar-nav > ul > li {
-    margin-bottom: 5px; }
     .sidebar-nav > ul > li.active > a {
       color: #398bf7;
       font-weight: 500; }
@@ -997,7 +993,8 @@ File: scss
 .page-wrapper {
   background: #f4f6f9;
   padding-bottom: 60px;
-  position: relative; }
+  display: flex;
+ }
 
 .container-fluid {
   padding: 25px 25px; }
@@ -1549,8 +1546,8 @@ ul#themecolors {
   padding: 17px 15px;
   position: absolute;
   right: 0;
-  border-top: 1px solid rgba(120, 130, 140, 0.13);
-  background: #ffffff; }
+  border-top: 2px solid #1c1d2b;
+  background: #1c1d2b; }
 
 /*******************
  scrollbar
@@ -5690,7 +5687,7 @@ File: scss
  ============================================================== */
 @media (min-width: 1024px) {
   .page-wrapper {
-    margin-left: 240px; } }
+    margin-left: 0; } }
 
 @media (max-width: 1023px) {
   .page-wrapper {
