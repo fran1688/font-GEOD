@@ -10,7 +10,7 @@
         <li *ngFor="let item of menuItems">
           <a class="waves-effect" [routerLink]="item.url" routerLinkActive="active"
              [routerLinkActiveOptions]="{ exact: true}">
-            <i class="{{item.icon}}"></i>
+            <img src="{{item.icon}}" alt="" style="width: 25px; margin: 0 10px">
               {{item.title}}
           </a>
         </li>

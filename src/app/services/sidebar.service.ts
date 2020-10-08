@@ -8,47 +8,42 @@ export class SidebarService {
   menu: any[] = [
     {
       title: 'Actualiza tú tasa del día',
-      icon: 'ti-announcement',
+      icon: '../../../assets/images/icon/actualizar_tasa.svg',
       url: '/'
-    },
-    {
-      title: 'Promesas',
-      icon: 'mdi mdi-gauge',
-      url: 'promesas'
     },
     {
       title: 'Mensaje',
-      icon: 'fa-envelope',
-      url: '/message'
+      icon: '../../../assets/images/icon/mensaje.svg',
+      url: 'promesas'
     },
     {
       title: 'Solicitud de Envio',
-      icon: 'mdi mdi-gauge',
+      icon: '../../../assets/images/icon/envio.svg',
+      url: '/message'
+    },
+    {
+      title: 'Ver Movimiento',
+      icon: '../../../assets/images/icon/ver_movimiento.svg',
       url: '/Shipping_request'
     },
     {
-      title: 'Ver movimientos',
-      icon: 'mdi mdi-gauge',
+      title: 'Compartir mi perfil',
+      icon: '../../../assets/images/icon/compartir.svg',
       url: '/movements'
     },
     {
-      title: 'Compartir mi perfil',
-      icon: 'fa-share-alt',
+      title: 'Politias de Uso',
+      icon: '../../../assets/images/icon/politicas_de_uso.svg',
       url: ''
     },
     {
-      title: 'Políticas de uso',
-      icon: 'mdi mdi-gauge',
+      title: 'Configuración',
+      icon: '../../../assets/images/icon/configuración.svg',
       url: '/'
     },
     {
-      title: 'Configuración',
-      icon: 'ti-settings',
-      url: '/register'
-    },
-    {
       title: 'Cerrar sesión',
-      icon: 'fa-sign-out',
+      icon: '../../../assets/images/icon/cerrar_seción.svg',
       url: '/login'
     }
   ];

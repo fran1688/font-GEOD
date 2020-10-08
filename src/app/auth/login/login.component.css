@@ -1,31 +1,13 @@
 /*******************
 Login register and recover password Page
 ******************/
-.login-register {
-  background: radial-gradient(ellipse farthest-corner at 50% 50px, #292C37 18%, #0B091A 40%);
-  height: 100%;
-  width: 100%;
-  padding: 10% 0;
-  position: fixed;
-}
 
-.color {
-  background: linear-gradient(90deg, #FF9F00, #FF5700);
-  border-radius: 15px;
-}
-
-.login-box {
-  width: 400px;
-  margin: 0 auto;
-  border-radius: 20px;
-  background: #0B091A;
-  box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2);
-}
 .login-box .footer {
   width: 100%;
   left: 0px;
   right: 0px;
 }
+
 .login-box .social {
   display: block;
   margin-bottom: 30px;
@@ -44,8 +26,14 @@ Login register and recover password Page
   position: absolute;
   height: 100%;
 }
-::placeholder{
-  color: white;
+
+.boton-google {
+  background-color: #363846!important;
+}
+
+.recuperar-pass {
+  color: #ffffff;
+  font-size: 15px;  
 }
 
 
